@@ -22,12 +22,7 @@ const MyHeroUnit: types.Brick<HeroUnitProps> = ({ padding }) => {
         padding === "big" ? "py-20" : "py-12"
       }`}
     >
-      <embed
-        src="../../public/resume.pdf"
-        type="application/pdf"
-        width="100%"
-        height="600px"
-      />
+      <iframe src="../../public/resume.pdf" width="100%" height="600px" />
     </div>
   );
 };
